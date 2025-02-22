@@ -31,6 +31,8 @@ public class TestingScript : MonoBehaviour
         score = 0;
         Debug.Log("Start");
         TestFunction();
+        //Debug.LogWarning("Warning Log!"); sarı, uyarı
+        //Debug.LogError("Error Log!"); kırmızı, hata
     }
     void Update()
     {
