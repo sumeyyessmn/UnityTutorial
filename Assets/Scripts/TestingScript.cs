@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 public class TestingScript : MonoBehaviour
 {
+    [SerializeField] private int number = 5;
+    [SerializeField] private int[] numbers;
+    [SerializeField] private List<int> numbersList = new List<int>();
 /*     int number = 5;
     int number2 = 10;
     float anotherNumber = 5.5f;
@@ -28,8 +31,8 @@ public class TestingScript : MonoBehaviour
         Debug.Log("Awake");
     }
     //Start fonksiyonu, oyun başlarken çalışan, 1 kere çalışan bir fonksiyondur.
-    int[] numbers = {1,2,3,4,5};
-    public static List<int> numbersList = new List<int>();
+    //int[] numbers = {1,2,3,4,5};
+    //public static List<int> numbersList = new List<int>();
     
     // int[] numbers = new int[3]; //3 tane eleman oluştur içlerini boş bırak
     void Start()
