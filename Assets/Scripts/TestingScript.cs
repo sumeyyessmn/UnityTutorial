@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace SumyGameNameSpace{
+
 public class TestingScript : MonoBehaviour
 {
 /*     int number = 5;
@@ -86,8 +86,12 @@ public class TestingScript : MonoBehaviour
         }
         Debug.Log("-------------------");
     }
+    public void myFunction()
+    {
+        Debug.Log("My function works!");
+    }
 }
 
-}
+
 
 
